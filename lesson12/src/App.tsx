@@ -18,7 +18,7 @@ function App() {
             <Counter setCount={setCount}>Count is {count}</Counter>
             <List
                 items={["☕ Coffee", "🌮 Tacos", "💻 Code"]}
-                render={(item: string) => <span className="gold">{item}</span>}
+                render={(item: string) => <span className="bold">{item}</span>}
             />
         </>
     );
