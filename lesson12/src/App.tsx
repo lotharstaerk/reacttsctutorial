@@ -7,7 +7,7 @@ import { useState } from "react";
 
 function App() {
     const [count, setCount] = useState<number>(1);
-
+    //const [test, setTest] = useState<number>(7);
     return (
         <>
             <Heading title="Hello World" />
@@ -20,6 +20,7 @@ function App() {
                 items={["☕ Coffee", "🌮 Tacos", "💻 Code"]}
                 render={(item: string) => <span className="bold">{item}</span>}
             />
+            <h1>Test</h1>
         </>
     );
 }
